@@ -1,3 +1,7 @@
+.section {
+    position: relative;
+    top: -15px;
+}
 
 .input_group {
     @apply flex border rounded-xl;

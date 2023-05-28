@@ -16,7 +16,7 @@ export default function Register() {
             <title>Register</title>
         </Head>
 
-        <section className="w-3/4 mx-auto flex flex-col gap-10">
+        <section className="w-4/5 mx-auto flex flex-col gap-2">
 
         <div className="title">
           <h1 className="text-gray-800 text-4xl font-bold py-4">Register</h1>
@@ -24,7 +24,7 @@ export default function Register() {
         </div>
 
         {/* Form */}
-        <form className="flex flex-col gap-5">
+        <form className="flex flex-col gap-2">
         <div className={styles.input_group}>
             <input
             type="text" 

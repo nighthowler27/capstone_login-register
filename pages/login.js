@@ -23,16 +23,15 @@ export default function Login() {
             <title>Login</title>
         </Head>
 
-      <section className="w-3/4 mx-auto flex flex-col gap-10">
+      <section className="w-4/5 mt-2 mx-10 my-auto flex flex-col gap-2">
 
         <div className="title">
-          <h1 className="text-red-800 text-4xl font-semibold py-4">TESTING</h1>
           <h1 className="text-green-800 text-3xl font-bold py-4">Explore</h1>
           <p className="w-3/4 mx-auto text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, veniam..</p>
         </div>
 
         {/* Form */}
-        <form className="flex flex-col gap-5">
+        <form className="flex flex-col gap-2">
           <div className={styles.input_group}>
             <input
             type="email" 

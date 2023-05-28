@@ -1,3 +1,8 @@
+.right-inner {
+   position: relative;
+   top: -15px;
+}
+
 
 .imgStyle {
     @apply bg-gradient-to-r from-blue-500 to-indigo-500 rounded-l-md;
