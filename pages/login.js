@@ -27,7 +27,7 @@ export default function Login() {
 
         <div className="title">
           <h1 className="text-green-800 text-3xl font-bold py-4">Explore</h1>
-          <p className="w-3/4 mx-auto text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, veniam..</p>
+          <p className="w-3/4 mx-auto text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, veniam..</p>
         </div>
 
         {/* Form */}
@@ -41,6 +41,10 @@ export default function Login() {
             />
             <span className="icon flex items-center px-4">
               <HiAtSymbol size={25} />
+            </span>
+
+            <span className="text-red-200" >
+              sample
             </span>
           </div>
           
