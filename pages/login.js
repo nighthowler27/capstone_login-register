@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout from '../layout/layout';
+import Layout from '../layout/layout_login_reg';
 import Link from 'next/link';
 import styles from '../styles/Form.module.css';
 import Image from 'next/image';
@@ -72,12 +72,12 @@ export default function Login() {
           </div>
           <div className="input-button">
             <button type="button" onClick={handleGoogleSignin} className={styles.button_custom}>
-              Sign In with Google <Image src={'/assets/google.svg'} width="20" height="20"></Image>
+              Sign In with Google <Image src={'/assets_login_reg/google.svg'} width="20" height="20"></Image>
             </button>
           </div>
           <div className="input-button">
             <button type="button" onClick={handleGithubSignin} className={styles.button_custom}>
-              Sign In with Github <Image src={'/assets/github.svg'} width="25" height="25"></Image>
+              Sign In with Github <Image src={'/assets_login_reg/github.svg'} width="25" height="25"></Image>
             </button>
           </div>
 
