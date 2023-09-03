@@ -11,7 +11,7 @@
 }
 
 .cartoonImg {
-    background:  url('/assets/img2.png')no-repeat;
+    background:  url('/assets_login_reg/img2.png')no-repeat;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -25,7 +25,7 @@
 }
 
 .cloud_one {
-    background:  url('/assets/cloud_1.png')no-repeat;
+    background:  url('/assets_login_reg/cloud_1.png')no-repeat;
     position: absolute;
     top: 65%;
     left: 10%;
@@ -38,7 +38,7 @@
 }
 
 .cloud_two {
-    background: url('/assets/cloud_2.png')no-repeat;
+    background: url('/assets_login_reg/cloud_2.png')no-repeat;
     position: absolute;
     top: 49%;
     left: 50%;

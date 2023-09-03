@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Layout from '../layout/layout';
+import Layout from '../layout/layout_login_reg';
 import Link from 'next/link';
 import styles from '../styles/Form.module.css';
 import Image from 'next/image';
@@ -31,7 +31,7 @@ export default function Login() {
 
         <div className="title">
           <h1 className="text-green-800 text-3xl font-bold py-4">Explore</h1>
-          <p className="w-3/4 mx-auto text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, veniam..</p>
+          <p className="w-3/4 mx-auto text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, veniam..</p>
         </div>
 
         {/* Form */}
@@ -45,6 +45,10 @@ export default function Login() {
             />
             <span className="icon flex items-center px-4">
               <HiAtSymbol size={25} />
+            </span>
+
+            <span className="text-red-200" >
+              sample
             </span>
           </div>
           
@@ -68,12 +72,12 @@ export default function Login() {
           </div>
           <div className="input-button">
             <button type="button" onClick={handleGoogleSignin} className={styles.button_custom}>
-              Sign In with Google <Image src={'/assets/google.svg'} width="20" height="20"></Image>
+              Sign In with Google <Image src={'/assets_login_reg/google.svg'} width="20" height="20"></Image>
             </button>
           </div>
           <div className="input-button">
             <button type="button" onClick={handleGithubSignin} className={styles.button_custom}>
-              Sign In with Github <Image src={'/assets/github.svg'} width="25" height="25"></Image>
+              Sign In with Github <Image src={'/assets_login_reg/github.svg'} width="25" height="25"></Image>
             </button>
           </div>
 
